@@ -1,0 +1,6 @@
+/* CSS Document */
+body {
+    background: url("../Images/backgroundImage.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+}
