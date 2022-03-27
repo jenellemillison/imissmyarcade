@@ -11,7 +11,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav"> <a class="nav-link active" aria-current="page" href="#">Home</a> <a class="nav-link" href="about.html">About</a> <a class="nav-link" href="timer.html">Timer</a> </div>
+            <div class="navbar-nav"> <a class="nav-link active" aria-current="page" href="index.html">Home</a> <a class="nav-link" href="about.html">About</a> <a class="nav-link" href="timer.html">Timer</a> </div>
         </div>
     </div>
 </nav>
@@ -23,24 +23,47 @@
             <ul class="list-group">
                 <li class="list-group-item d-flex justify-content-between align-items-start">
                     <div class="ms-2 me-auto">
-                        <div class="fw-bold">Sound 1</div>
-                        Content for list item </div>
+                        <div class="fw-bold">Galaga Vibes</div>
+							<audio id="audio1"> 
+								<source src="Sound Effects(Part 1) -- Galaga (1).mp3" type="audio/mp3">
+							</audio>
+							<button id="playPauseBTN1" onClick="playPause1()">Play &#9658;</button>
+							&nbsp;
+							&nbsp;
+							<button onClick="stop1()">Stop &#9611;</button>
+                        </div>
+						<script src="sounds.js"></script>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-start">
                     <div class="ms-2 me-auto">
-                        <div class="fw-bold">Sound 2</div>
-                        Content for list item </div>
+                        <div class="fw-bold">Pac-Man Vibes</div>
+							<audio id="audio2"> 
+								<source src="Pac-Man Sound Effects.mp3" type="audio/mp3">
+							</audio>
+							<button id="playPauseBTN2" onClick="playPause2()">Play &#9658;</button>
+							&nbsp;
+							&nbsp;
+							<button onClick="stop2()">Stop &#9611;</button>
+                        </div>
+						<script src="sounds.js"></script>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-start">
                     <div class="ms-2 me-auto">
-                        <div class="fw-bold">Sound 3</div>
-                        Content for list item </div>
+                        <div class="fw-bold">People Talking Vibes</div>
+							<audio id="audio3"> 
+								<source src="people talking in background sound effect.mp3" type="audio/mp3">
+							</audio>
+							<button id="playPauseBTN3" onClick="playPause3()">Play &#9658;</button>
+							&nbsp;
+							&nbsp;
+							<button onClick="stop3()">Stop &#9611;</button>
+                        </div>
+						<script src="sounds.js"></script>
                 </li>
             </ul>
         </div>
     </div>
 </div>
-    </div>
-
+		</div>
 </body>
 </html>
