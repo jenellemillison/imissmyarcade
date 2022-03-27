@@ -38,6 +38,12 @@ h1 {
     padding-top: 10px;
 }
 
+p {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
 a {
     font-family: 'Press Start 2P', cursive;
 }
