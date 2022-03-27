@@ -22,7 +22,7 @@ Create a Google account with Google Calendar enabled and events in the calendar.
 
 If the app has not been published yet, add the gmail to the test users of the Google Cloud project via APIs & Services -> OAuth consent screen
 
-Open a terminal with Python 3 and type python -m http.server 8000 to start the web server
+Open a terminal with Python 3, go to the project's file location, and type python -m http.server 8000 to start the web server
 
 In a browser, navigate to http://localhost:8000
 
