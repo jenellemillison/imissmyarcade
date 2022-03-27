@@ -38,6 +38,10 @@ h1 {
     padding-top: 10px;
 }
 
+.list-group {
+	padding-top: 170px;
+}
+
 p {
     font-family: 'Press Start 2P', cursive;
     font-size: 13px;
