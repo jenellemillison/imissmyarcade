@@ -1,6 +1,8 @@
 /* CSS Document */
-body {
+.bgImage {
     background: url("../Images/backgroundImage.jpg");
     background-size: cover;
     background-repeat:no-repeat;
 }
+
+
