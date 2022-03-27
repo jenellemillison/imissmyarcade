@@ -4,7 +4,7 @@
 
 💻 Website is LIVE at http://imissmyarcade.tech/ 
 
-Based off of https://imissmycafe.com/ but original code
+Based off of https://imissmycafe.com/ but our own code
 
 
 ## 📅 Instructions to use with Google Calendar:
