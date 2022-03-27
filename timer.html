@@ -75,18 +75,24 @@
 <!-- The Below Code is modified from https://developers.google.com/calendar/api/quickstart/js -->
 
     <!--Add buttons to initiate auth sequence and sign out-->
-    <button id="authorize_button" style="display: none; margin-left: 120px; margin-top: 50px; color: white; background-color: #0d6efd; border-radius: 10px; border: none;"><p>Get Missions!</p></button>
-    <button id="signout_button" style="display: none; margin-left: 120px; margin-top: 50px; color: white; background-color: #0d6efd; border-radius: 10px; border: none;"><p>Sign Out</p></button>
+    <button id="authorize_button" style="display: none; margin-left: 120px; margin-top: 50px; color: white; background-color: #0d6efd; border-radius: 10px; border: none;" onClick = clearList()><p>Get Missions!</p></button>
+    <button id="signout_button" style="display: none; margin-left: 120px; margin-top: 50px; color: white; background-color: #0d6efd; border-radius: 10px; border: none;" onClick = clearList()><p>Sign Out</p></button>
 
+	<div id=listContent>
     <pre id="content" style="font-family: 'Press Start 2P', cursive;
     font-size: 12px;
     padding-top: 30px; padding-left: 120px; background-color: white"
 	></pre>
+	</div>
 	<!-- text-align: center; -->
 
     <script type="text/javascript">
       // Client ID and API key from the Developer Console
-      var CLIENT_ID = '947415368535-8pre3dnpu6s3uen24udqaipa4sjv700e.apps.googleusercontent.com';
+      
+	  //github
+	  //var CLIENT_ID = '947415368535-s6uibv1sm8t55r5ccd66f5huuf1fp9ji.apps.googleusercontent.com'
+	  // local host
+		var CLIENT_ID = '947415368535-8pre3dnpu6s3uen24udqaipa4sjv700e.apps.googleusercontent.com';
       var API_KEY = 'AIzaSyCyxil2MwIIae76QM7bMKQf5vDZH-DCa7A';
 
       // Array of API discovery doc URLs for APIs used by the quickstart
@@ -186,7 +192,6 @@
         }).then(function(response) {
           var events = response.result.items;
           appendPre('Upcoming Due Dates:');
-
           if (events.length > 0) {
             for (i = 0; i < events.length; i++) {
               var event = events[i];
