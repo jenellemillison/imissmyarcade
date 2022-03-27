@@ -7,6 +7,17 @@
     background-repeat:no-repeat;
 }
 
+.bgImage2 {
+    background: url("../Images/backgroundImage2.jpg");
+    background-size: cover;
+    background-repeat:repeat-y;
+}
+.timerBackground {
+     background: url("../Images/timer_background.png");
+    background-size: cover;
+    background-repeat:repeat-y;
+}
+
 @font-face {
   font-family: arcadeFont;
   src: url("../fonts/ArcadeClassic.ttf");
@@ -14,6 +25,7 @@
 
 h1 {
     font-family: arcadeFont;
+    color: white;
 }
 
 .navbar {
