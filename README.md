@@ -1,6 +1,6 @@
-# imissmyarcade
+# 🕹️ imissmyarcade
 
-🕹️ We hope you have fun in our virtual arcade!
+We hope you have fun in our virtual arcade!
 
 💻 Website is LIVE at http://imissmyarcade.tech/ 
 
